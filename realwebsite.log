@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.2)  17 JUL 2023 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.2)  18 JUL 2023 00:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -272,15 +272,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `realwebsite.toc'.
 
-<dilutionfridge.png, id=56, 903.375pt x 1355.0625pt>
-File: dilutionfridge.png Graphic file (type png)
-<use dilutionfridge.png>
-Package pdftex.def Info: dilutionfridge.png  used on input line 35.
-(pdftex.def)             Requested size: 107.06323pt x 160.60059pt.
-<real_qubit.png, id=58, 973.6375pt x 783.92876pt>
-File: real_qubit.png Graphic file (type png)
-<use real_qubit.png>
-Package pdftex.def Info: real_qubit.png  used on input line 36.
+<dilutionfridge_small.jpg, id=56, 466.25807pt x 699.3871pt>
+File: dilutionfridge_small.jpg Graphic file (type jpg)
+<use dilutionfridge_small.jpg>
+Package pdftex.def Info: dilutionfridge_small.jpg  used on input line 35.
+(pdftex.def)             Requested size: 107.06635pt x 160.60059pt.
+<real_qubit.jpg, id=57, 973.6375pt x 783.92876pt>
+File: real_qubit.jpg Graphic file (type jpg)
+<use real_qubit.jpg>
+Package pdftex.def Info: real_qubit.jpg  used on input line 36.
 (pdftex.def)             Requested size: 199.46327pt x 160.60059pt.
 
 
@@ -289,13 +289,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2{/usr/share/texmf-dist/f
-onts/enc/dvips/cm-super/cm-super-ts1.enc} <Documents/qcsite/dilutionfridge.png>
- <Documents/qcsite/real_qubit.png>]
-<darktheme_fridge_nothuge.jpg, id=97, 1346.02875pt x 2055.68pt>
-File: darktheme_fridge_nothuge.jpg Graphic file (type jpg)
-<use darktheme_fridge_nothuge.jpg>
-Package pdftex.def Info: darktheme_fridge_nothuge.jpg  used on input line 96.
-(pdftex.def)             Requested size: 345.0pt x 526.87337pt.
+onts/enc/dvips/cm-super/cm-super-ts1.enc} <Documents/qcsite/dilutionfridge_smal
+l.jpg> <Documents/qcsite/real_qubit.jpg>]
+<darktheme_fridge_medium.jpg, id=94, 525.965pt x 803.0pt>
+File: darktheme_fridge_medium.jpg Graphic file (type jpg)
+<use darktheme_fridge_medium.jpg>
+Package pdftex.def Info: darktheme_fridge_medium.jpg  used on input line 96.
+(pdftex.def)             Requested size: 345.0pt x 526.73466pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -305,17 +305,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 4 contains only floats.
 
 
-Overfull \vbox (2.87337pt too high) has occurred while \output is active []
+Overfull \vbox (2.73466pt too high) has occurred while \output is active []
 
 
-[4 <Documents/qcsite/darktheme_fridge_nothuge.jpg>]
+[4 <Documents/qcsite/darktheme_fridge_medium.jpg>]
 (Documents/qcsite/realwebsite.aux)
 Package rerunfilecheck Info: File `realwebsite.out' has not changed.
 (rerunfilecheck)             Checksum: 822688BDD4414CF9D2B28BF4C94F0834;1032.
  ) 
 Here is how much of TeX's memory you used:
- 8249 strings out of 477985
- 130768 string characters out of 5840059
+ 8248 strings out of 477985
+ 130799 string characters out of 5840059
  1861388 words of memory out of 5000000
  28342 multiletter control sequences out of 15000+600000
  517484 words of font info for 49 fonts, out of 8000000 for 9000
@@ -328,10 +328,10 @@ ts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public
 r12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/
 fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Documents/qcsite/realwebsite.pdf (4 pages, 4382405 bytes).
+Output written on Documents/qcsite/realwebsite.pdf (4 pages, 733093 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 146 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
