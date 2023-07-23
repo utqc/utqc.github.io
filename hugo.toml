@@ -1,3 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+uglyurls = true
+relativeURLS = true
+cleanDestinationDir = true
+
+[permalinks]
+pages = "/:filename"

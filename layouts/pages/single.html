@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  {{ if $.Params.noindex }}
+  <meta name="robots" content="noindex">
+  {{ end }}
+  <title>{{$.Title}}</title>
+  {{ $style := resources.Get "main.scss" | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+</head>
+<body>
+
+<nav>
+  <div class="logosmall">
+   <a href="/">
+     <img class="logosmall" src="logo_small.jpg">
+   </a>
+  </div>
+  <div class="header">
+      {{range (where .Site.RegularPages "Section" "pages")}}
+      <div class="buttonlike">
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
+      </div>
+      {{end}}
+  </div>
+
+</nav>
+
+
+<div class="paper">
+
+  <div class="viewable">
+    <article>
+      <h1>{{.Title}}</h1>
+      {{.Content}}
+    </article>
+  </div>
+
+</div>
+
+</body>
+</html>
