@@ -1,23 +1,16 @@
 nav {
   align-items: center;
-  display: flex; }
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 700px) 1fr; }
 
 .logosmall {
+  /* scss + hugo-server breaks this when in combination */
   height: 40px;
-  display: block; }
+  justify-self: end; }
 
 .header {
   justify-content: space-evenly;
-  align-items: center;
-  max-width: 700px;
-  width: 100%;
-  margin: auto;
-  height: 40px;
-  padding: auto 0;
   display: flex; }
-
-.buttonlike {
-  text-align: center; }
 
 body {
   margin: 0;
@@ -26,9 +19,11 @@ body {
 .paper {
   margin: 0 auto;
   max-width: 700px;
-  padding: 100px 0.2em;
-  background-color: white;
-  display: flex; }
+  padding: 100px 0;
+  background-color: white; }
+
+.viewable {
+  padding: 0 0.2em; }
 
 article {
   margin: 0 auto;
