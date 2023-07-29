@@ -1,34 +1,13 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  {{ if $.Params.noindex }}
-  <meta name="robots" content="noindex">
-  {{ end }}
-  <title>{{$.Title}}</title>
-  {{ $style := resources.Get "main.scss" | resources.ToCSS }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-</head>
+<html lang="en-US">
+{{partial "head.html" . }}
+
 <body>
 
-<nav>
-  <div class="logosmall">
-   <a href="/">
-     <img class="logosmall" src="logo_small.jpg">
-   </a>
-  </div>
-  <div class="header">
-    <a href="resources.html">Resources</a>
-    <a href="archives.html">Archives</a>
-    <a href="discord.html">Discord</a>
-  </div>
-</nav>
-
+{{partial "navbar.html" . }}
 
 <div class="paper">
-
-  <div class="viewable">
+  <div class="paper-interior">
     <article>
       <h1>{{.Title}}</h1>
       {{.Content}}

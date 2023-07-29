@@ -1,4 +1,5 @@
 ---
 title: Discord
 ---
-Join with some link
+
+Our discord space is our primary means of communication. Join [link](https://discord.gg/UBnRaHuzF9)

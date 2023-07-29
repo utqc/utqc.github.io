@@ -1,3 +1,37 @@
-<p>main page template</p>
+<!doctype html>
+<html lang="en-US">
+{{partial "head.html" . }}
 
-{{.Content}}
+<body>
+
+{{partial "navbar.html" . }}
+
+<div class="paper">
+  <div class="paper-interior">
+    <div class="name-and-logo">
+      <img class="logo-part" src="logo_small.png">
+
+      <h2>
+        UT<br>
+        Quantum<br>
+        Collective<br>
+        <br>
+        This text will be replaced by an svg later
+      </h2>
+    </div>
+
+    <article>
+      {{.Content}}
+    </article>
+
+  </div>
+</div>
+
+<div class="foot_image">
+  <!-- Photograph by Graham Carlow for IBM. CC BY-ND 2.0 -->
+  <img src="darktheme_fridge_medium.jpg" style="width: 100%">
+</div>
+
+</body>
+</html>
+
