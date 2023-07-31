@@ -3,7 +3,7 @@ packages:
   - hugo
 oauth: pages.sr.ht/PAGES:RW
 environment:
-  site: after_egypt.srht.site
+  site: qc_site_test
 tasks:
 - package: |
     cd $site
