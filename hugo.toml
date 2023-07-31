@@ -5,4 +5,4 @@ relativeURLS = true
 cleanDestinationDir = true
 
 [permalinks]
-pages = "/:filename"
+pages = '/:filename'

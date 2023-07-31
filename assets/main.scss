@@ -47,6 +47,7 @@ body {
   margin: 0 auto;
   max-width: 700px;
   padding: 100px 0;
+  min-height: 100%;
   background-color: $white;
 
   .paper-interior {
@@ -58,6 +59,7 @@ body {
   max-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
   /*
   display: flex;
   flex-wrap: wrap;
