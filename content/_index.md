@@ -1,12 +1,21 @@
-We are a community where undergraduate students engage with each other to learn and research topics about everything Quantum.
+---
+title: The UT Quantum Collective
+---
+We are a community where undergraduate students engage with each other to learn and research topics about quantum computing and quantum information.
 
-We hold weekly meetings for research groups who go out and invesitgate topics, learning labs where we teach computing with Qiskit (a quantum circuit compiler), and reading groups where we journey through interesting papers.
+What are quantum computing? It's an extremely strange field at the intersection of computer science, engineering, and physics which breaks our classical understanding of nature.
 
-In addition, we host semesterly quantum hackathons, occasional guest speakers, and collaborate with other university quantum clubs to host the global SQUID conference.
+## What we do
+
+- Research Groups
+- Learnings Labs
+- Reading Groups
+- Quantum Hackathons
+- The SQUID Conference
+- Guest Speakers
+
 
 Join [our Discord space](https://discord.gg/UBnRaHuzF9) to see everything that's going on.
-
-**line width test:**
 
 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 

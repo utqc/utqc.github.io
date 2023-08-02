@@ -1,8 +1,5 @@
 @import url("cmfont/Serif/cmun-serif.css");
-html {
-  font-family: "Computer Modern Serif", Garamond, Palatino, Times, "Times New Roman", serif;
-  font-size: 13px; }
-
+@import url("cmfont/Sans/cmun-sans.css");
 a:link, a:visited {
   color: #388;
   text-decoration: none; }
@@ -30,26 +27,16 @@ body {
 
 .paper {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 800px;
   padding: 100px 0;
   min-height: 100%;
   background-color: #fff; }
   .paper .paper-interior {
-    padding: 0 0.2em; }
+    padding: 0 0.6em; }
 
 .name-and-logo {
   margin: 0 auto;
-  max-width: 600px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
-  /*
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  */ }
-  .name-and-logo .logo-part {
-    width: 100%; }
+  max-width: 600px; }
 
 .foot_image {
   margin: 0px auto;
@@ -59,11 +46,27 @@ body {
 article {
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 30rem;
   /* TODO see if automatic soft hyphenation is possible */
   text-align: justify;
   hyphens: auto;
   overflow-wrap: break-word; }
 
+html {
+  font-family: "Computer Modern Serif", Garamond, Palatino, Times, "Times New Roman", serif;
+  font-size: 15px; }
+
 h1 {
-  text-align: center; }
+  text-align: center;
+  font-size: 19px; }
+
+h2, h3 {
+  font-size: 16px; }
+
+h4 {
+  font-size: 15px; }
+
+h1, h2, h3, h4 {
+  font-family: "Computer Modern Sans";
+  font-weight: bold;
+  color: #111; }
