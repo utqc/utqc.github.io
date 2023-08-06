@@ -14,7 +14,7 @@ What is quantum computing? It's an extremely strange field at the intersection o
 - [The SQUID Conference](https://www.quantumcoalition.io/)
 - Guest Speakers
 
-Join [our Discord space](https://discord.gg/UBnRaHuzF9) to see everything that's going on.
+[Our Discord space](https://discord.gg/UBnRaHuzF9) is our primary means of communication. Join it to see everything that's going on. 
 
 ## Our Dirac-tors
 
