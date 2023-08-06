@@ -16,7 +16,7 @@ What is quantum computing? It's an extremely strange field at the intersection o
 
 [Our Discord space](https://discord.gg/UBnRaHuzF9) is our primary means of communication. Join it to see everything that's going on. 
 
-## Our Dirac-tors
+## Our current officers
 
 |||
 |---|---|
