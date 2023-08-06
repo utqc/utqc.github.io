@@ -6,3 +6,6 @@ cleanDestinationDir = true
 
 [permalinks]
 pages = '/:filename'
+
+[markup.goldmark.renderer]
+    #unsafe = true

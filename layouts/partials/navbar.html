@@ -1,7 +1,7 @@
 <nav>
   <div class="logodiv" style="grid-column:1">
     {{if ne .IsHome true }}
-    <a href="/">
+    <a href={{ relref . "/_index.md" }}>
       <img class="logo" src="qc_logo_corner2.png">
     </a>
     {{end}}
@@ -9,7 +9,7 @@
 
   <div class="header" style="grid-column:2">
     <h4><a href={{ relref . "/pages/resources.md" }}>Resources</a></h4>
-    <h4><a href={{ relref . "/pages/archives.md" }}>Archives</a></h4>
+    <h4><a href="https://www.youtube.com/@quantumcollective_UT">Recordings</a></h4>
     <h4><a href="https://discord.gg/UBnRaHuzF9">Discord</a></h4>
   </div>
 </nav>
