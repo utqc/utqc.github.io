@@ -29,5 +29,5 @@ What is quantum computing? It's an extremely strange field at the intersection o
 | Aishi Guha | Dirac-tor of Research |
 | Arjun Bala-Mehta | Dirac-tor of Learning |
 | Srila Palanikumar | Dirac-tor of Finance and Outreach |
-| John Dunbar | Dirac-tor of Readinga |
+| John Dunbar | Dirac-tor of Reading |
 | Chris Antic | Dirac-tor of Social Media |
