@@ -19,7 +19,7 @@ What is quantum computing? It's an extremely strange field at the intersection o
 ## Our current officers
 
 |||
-|---|---|
+|:---|:---|
 | Emily Padilla | Co-President |
 | Adittya Patil | Co-President |
 | Sarvesh Raghuraman | Dirac-tor of Learning |
