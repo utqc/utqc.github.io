@@ -2,4 +2,4 @@
 title: Fall Fest
 ---
 
-Coming soon, mid-October!
+Coming soon, early-November!
