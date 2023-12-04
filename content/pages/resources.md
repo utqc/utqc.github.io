@@ -6,9 +6,9 @@ title: Resources
 ## Learning
 - [Quantum Computing for the Very Curious](https://quantum.country/qcvc) may be the best introduction if you don't know anything about quantum computing.
 
-- [Thomas Wong's textbook](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf) is an introductory book which takes the time to give you the foundations in classical computing before teaching you quantum computing.
-
 - Scott Aaronson's [Quantum Information Science](https://www.scottaaronson.com/qclec.pdf) lecture notes cover the math and theory behind it all.
+
+- [Thomas Wong's textbook](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf) is an introductory book which takes the time to give you the foundations in classical computing before teaching you quantum computing.
 
 - [Qiskit](https://qiskit.org/) is a library for running quantum circuits, and they have a series of tutorials going in depth on how to design them.
 
